@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/bolingboling/.nvm/versions/node/v14.17.0/bin/node /Users/bolingboling/.nvm/versions/node/v14.17.0/bin/yarn add @openzeppelin/contracts
+
+PATH: 
+  /opt/homebrew/opt/openssl@3/bin:/Users/bolingboling/.nvm/versions/node/v14.17.0/bin:/Users/bolingboling/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/opt/openssl@3/bin:/Users/bolingboling/.nvm/versions/node/v14.17.0/bin:/Users/bolingboling/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/bolingboling/.cargo/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/Users/bolingboling/Library/Caches/Yarn/v6/npm-es5-ext-0.10.53-93c5a3acfdbef275220ad72644ad02ee18368de1-integrity/node_modules/es5-ext/reg-exp/is-reg-exp.js' -> '/Users/bolingboling/github/mercury-protocol/contract-payment-splitter/node_modules/es5-ext/reg-exp/is-reg-exp.js'
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.4",
+      "@nomiclabs/hardhat-waffle": "^2.0.2",
+      "chai": "^4.3.6",
+      "ethereum-waffle": "^3.4.0",
+      "ethers": "^5.5.4",
+      "hardhat": "^2.8.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
